@@ -1,15 +1,31 @@
 {
-  "name": "sendNRecordMail",
+  "name": "send-and-record-mail",
   "version": "0.0.1",
   "description": "Send mails using mail client and then keep a log of sent items",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Shemna <beevishemna@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4",
     "sendgrid": "^5.1.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shemna/sendNRecordMail.git"
+  },
+  "keywords": [
+    "sendgrid",
+    "recordmail"
+  ],
+  "bugs": {
+    "url": "https://github.com/shemna/sendNRecordMail/issues"
+  },
+  "homepage": "https://github.com/shemna/sendNRecordMail#readme"
 }
