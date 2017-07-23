@@ -1,6 +1,6 @@
 {
   "name": "send-and-record-mail",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Send mails using mail client and then keep a log of sent items",
   "main": "index.js",
   "scripts": {
